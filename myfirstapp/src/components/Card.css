@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
 }
 .card {
     position: relative;
@@ -10,6 +15,7 @@ body {
     transition: transform 0.4s;
     margin: 0; /* Remove margin */
     padding: 0;
+    width: auto;
     
   }
   
@@ -24,13 +30,11 @@ body {
     overflow: hidden;
     margin: 0; /* Remove margin */
     padding: 0;
-    margin-bottom: 10px;
   }
   .card .image-container img {
     width: 100%;
     object-fit:cover;
-    margin-left: 5px;
-    margin-right: 40px;
+    margin: 0;
     
   }
   .card .image-container .overlay {
