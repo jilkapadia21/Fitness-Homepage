@@ -63,9 +63,9 @@ const Homepage = () => {
       </section>
 
       <div className={showBackgroundChange ? 'change-bg-color' : ''}>
-        <section className="workout-routines">
-          <h2 className="carousel-heading">Motivation</h2>
-          <div className="container">
+        <section className="workout-routines" style={{marginTop:'40px'}}>
+          <h2 className="carousel-heading" style={{fontSize:'55px'}}>Motivation</h2>
+          <div className="container" style={{marginBottom:'3%'}}>
             <div className="carousel">
               {/* Workout cards go here */}
               <div className="workout-card">
@@ -92,7 +92,7 @@ const Homepage = () => {
           </div>
         </section>
       </div>
-      <div className="cardContainer">
+      <div className="cardContainer" style={{marginTop:'4%'}}>
         <section className="info">
           <div>
             <h2>Why Gym is Important?</h2>
@@ -107,8 +107,8 @@ const Homepage = () => {
           </div>
         </section>
       </div>
-      <section className="cardContainer1">
-        <div className="card"> {/* Add your card class for styling */}
+      <section className="cardContainer1" style={{marginTop:'15%'}}>
+        <div className="card" style={{marginBottom:'13%'}}> {/* Add your card class for styling */}
           <img src="https://images.unsplash.com/photo-1517130038641-a774d04afb3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80.jpg" alt="Card Image" />
           <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80.jpg" alt="Card Image" />
           <img src='https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80.jpg' alt='Card Image' />
