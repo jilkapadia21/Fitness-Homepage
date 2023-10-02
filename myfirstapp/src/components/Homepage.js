@@ -123,7 +123,7 @@ const Homepage = () => {
         </div>
         {/* Add more cards as needed */}
       </section>
-
+      <h1 style={{color:'white', textAlign:'center', marginBottom:'5%'}}>FEATURES</h1>
       <div className="container">
         <div className="glass" style={{ '--r': -15 }} data-text="Training">
           <span class="material-symbols-outlined" style={{ fontSize: '5em' }}>
