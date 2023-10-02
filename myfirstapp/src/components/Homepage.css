@@ -330,22 +330,22 @@ p {
   /* Slide in effect */
   max-width: 800px;
   /* Adjust as needed */
-  width: 60%;
+  width: 70%;
   border-color: #fff;
   margin-top: 0;
 }
 .image-container {
   flex: 2.1;
-  margin-right: 40px;
+  margin-right: 38px;
 }
 
 .image-container img {
-  width: 120%;
+  width: 115%;
   height: 100%;
 }
 
 .text-container {
-  flex: 2.5;
+  flex: 2.6;
   text-align:center;
 }
 
@@ -359,7 +359,7 @@ p {
 }
 
 .info1 h2 {
-  font-size: 36px;
+  font-size: 35px;
   margin-bottom: 30px;
   margin-left: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -371,7 +371,7 @@ p {
   padding-top: 30px;
   margin-left: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.6;
   
   color: linear-gradient(rgb(73, 48, 235), rgb(228, 32, 29));
