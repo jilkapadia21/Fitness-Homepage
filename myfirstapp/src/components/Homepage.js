@@ -63,9 +63,9 @@ const Homepage = () => {
       </section>
 
       <div className={showBackgroundChange ? 'change-bg-color' : ''}>
-        <section className="workout-routines" style={{marginTop:'40px'}}>
-          <h2 className="carousel-heading" style={{fontSize:'55px'}}>Motivation</h2>
-          <div className="container" style={{marginBottom:'3%'}}>
+        <section className="workout-routines" style={{ marginTop: '30px' }}>
+          <h2 className="carousel-heading" style={{ fontSize: '55px' }}>Motivation</h2>
+          <div className="container" style={{ marginBottom: '3%' }}>
             <div className="carousel">
               {/* Workout cards go here */}
               <div className="workout-card">
@@ -92,7 +92,7 @@ const Homepage = () => {
           </div>
         </section>
       </div>
-      <div className="cardContainer" style={{marginTop:'4%'}}>
+      <div className="cardContainer" style={{ marginTop: '4%' }}>
         <section className="info">
           <div>
             <h2>Why Gym is Important?</h2>
@@ -107,8 +107,8 @@ const Homepage = () => {
           </div>
         </section>
       </div>
-      <section className="cardContainer1" style={{marginTop:'15%'}}>
-        <div className="card" style={{marginBottom:'13%'}}> {/* Add your card class for styling */}
+      <section className="cardContainer1" style={{ marginTop: '15%' }}>
+        <div className="card" style={{ marginBottom: '13%' }}> {/* Add your card class for styling */}
           <img src="https://images.unsplash.com/photo-1517130038641-a774d04afb3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80.jpg" alt="Card Image" />
           <img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1771&q=80.jpg" alt="Card Image" />
           <img src='https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80.jpg' alt='Card Image' />
@@ -146,6 +146,24 @@ const Homepage = () => {
           </span>
         </div>
       </div>
+      <div className="cardContainer2" style={{ marginBottom: '5%' }}>
+        <section className="info1">
+          <div className="image-container">
+            <img src="https://thelatest.modere.eu/wp-content/uploads/2023/04/Copy-of-US_Lean-Body-System_IG_FB_052622-1000-%C3%97-700px-540x700.png" alt="Fitness Icon" />
+          </div>
+          <div className="text-container">
+            <h2 style={{ marginLeft: 0 }}>Bring the gym home</h2>
+            <ul>
+              <li style={{ fontFamily: 'revert-layer', fontSize: '25px', color: '#ff4dd2'}}>
+                Unlimited access to at-home workouts, bringing the fitness experience to the comfort of your home
+              </li>
+            </ul>
+            <p style={{ fontFamily: 'serif' }}>Join us and log your workouts now</p>
+            <button className="customButton"><a href="/routines">ROUTINES</a></button>
+          </div>
+        </section>
+      </div>
+
       <WorkoutSlogans />
 
       <div className={showBackgroundChange ? 'change-bg-color' : ''}>
