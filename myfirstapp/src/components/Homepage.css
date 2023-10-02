@@ -1,7 +1,7 @@
 /* Reset and general styles */
 * {
   margin: 0;
-  
+  padding: 0;
 }
 
 body {
@@ -22,19 +22,22 @@ header {
   color: #ffffff;
   padding: 0px 40px;
   text-align: center;
-  margin-bottom: -20%;
+  margin-bottom: -10%;
+  
 }
 
 .image-section {
   position: relative;
-  width: 100%;
-  margin-left: 5%;
+  width: 101.5%;
+  margin-left: 0;
+  margin-right: 0;
   margin: 0 auto;
 }
 
 .image-container {
   position: relative;
   overflow: hidden;
+  margin-right: 0;
 }
 
 .fitness-image {
@@ -42,6 +45,7 @@ header {
   padding-left: 0;
   display: block;
   transition: transform 0.7s ease;
+  
 }
 
 .image-overlay {
@@ -297,6 +301,110 @@ p {
 }
 
 /* ... Rest of your CSS ... */
+/* Info section styles */
+.cardContainer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  border-width: 20;
+  border-color: #fff;
+  margin-top: 0;
+  
+}
+
+.info1 {
+  display: flex;
+  
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #0a0ac0cc, #7b85ee);
+  text-align: right;
+  /* background: linear-gradient(to bottom, rgb(205, 102, 112), darkslateblue); */
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgba(209, 18, 18, 0.598);
+  margin: 20px 0;
+  animation: slideIn 1.3s forwards;
+  /* Slide in effect */
+  max-width: 800px;
+  /* Adjust as needed */
+  width: 60%;
+  border-color: #fff;
+  margin-top: 0;
+}
+.image-container {
+  flex: 2.1;
+  margin-right: 40px;
+}
+
+.image-container img {
+  width: 120%;
+  height: 100%;
+}
+
+.text-container {
+  flex: 2.5;
+  text-align:center;
+}
+
+.info1:hover {
+  animation: none;
+  /* Stop the animation on hover */
+  transform: translateY(-20px) scale(1.05);
+  /* Move up and slightly scale on hover */
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  /* Move it up on hover */
+}
+
+.info1 h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  margin-left: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.info1 p {
+  padding-top: 30px;
+  margin-left: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.6;
+  
+  color: linear-gradient(rgb(73, 48, 235), rgb(228, 32, 29));
+}
+
+.info1 p:last-child {
+  margin-bottom: 0;
+}
+
+
+.customButton {
+  background-color: #46d21bbd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.customButton a {
+  color: white;
+  text-decoration: none;
+}
+
+.customButton:hover {
+  background-color: #218c74;
+}
+
 
 /* Slogan styles */
 .workout-slogans {
